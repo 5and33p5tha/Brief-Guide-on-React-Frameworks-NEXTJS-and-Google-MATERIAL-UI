@@ -1,0 +1,4 @@
+.h1 {
+  color: blue;
+}
+/* Although h1 is html element, we cannot style it in NextJs as just h1{}, we need .h1{} and treat it like custom class */

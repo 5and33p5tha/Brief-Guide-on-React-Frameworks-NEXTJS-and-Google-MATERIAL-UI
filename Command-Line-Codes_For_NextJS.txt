@@ -1,0 +1,128 @@
+Press Command+And Click On The Function in VSCode to Look For Function
+
+
+
+				TO CHECK IF OUR WEB PAGE MATCHES THE STANDARD FORMAT
+Step 1. Go To https://validator.w3.org/
+ Notes:-
+
+1.Cannot Use Font code of html, only in css.
+
+2. Cannot Use Canter Tag, Use ms-auto of bootstrap as standard.
+
+
+
+
+				JSX.
+JSX = JavaScript Syntax Extension
+We use JS and HTML codes in same pages and sometimes in same line.
+
+
+
+
+				You Need Node Js to use Next:-
+If Node Js is Not Installed, 
+Go To:- https://nodejs.org/en/ and Download It.
+
+Check Node Js Version:- node -v
+
+
+
+Next. js is a React framework that enables several extra features, including server-side rendering and generating static websites. React is a JavaScript library that is traditionally used to build web applications rendered in the client's browser with JavaScript.
+
+
+
+Documentation:- https://nextjs.org/docs/api-reference/create-next-app
+
+
+
+				To Create New Next App.
+
+Step 1. Change Directory to where you want to create the next.
+
+Step 2. Open Terminal and Enter:- npx create-next-app@latest
+
+# or
+
+yarn create next-app
+
+
+
+Here, The Directory is ssaannddeeeepp@Sandeeps-Air NextJS %.
+
+
+
+Note:- In ReactJS and NextJS we use npx, we will use npm in other cases like ExpressJS
+
+
+
+				To Check all available / installed Packages:-
+
+Go to package.json file at the end in VsCode
+
+
+
+
+				To update the packages:-
+Go to package.json file at the end in VsCode.
+Then rename the numbers in the package.json and go to terminal
+Then just type:- npm install
+
+
+
+				To Run/Start Server:-
+Code:- npm run dev
+
+Then Paste The given server link from terminal to that page say( http://localhost:3000/) 
+
+To go to our page, add / and pagename at the end say( http://localhost:3000/firstpage.js)
+
+
+
+				To Stop Server:-
+Type :- control + c key to stop server
+
+
+
+
+				To Install Material UI:-
+
+Code:- 
+// with npm
+npm install @mui/material @emotion/react @emotion/styled
+
+// with yarn
+yarn add @mui/material @emotion/react @emotion/styled
+
+
+Material-UI is simply a library that allows us to import and use different components to create a user interface in our React applications. This saves a significant amount of time since the developers do not need to write everything from scratch.
+
+GOOGLE ALSO USES MATERIAL UI
+
+
+Documentation:- https://mui.com/getting-started/installation/#npm
+
+
+
+
+				To Install SVG of Material UI:-
+// with npm
+npm install @mui/icons-material
+
+You can also use Content Delivery Network (C.D.N)
+
+Documentation:- https://mui.com/getting-started/installation/#npm
+
+
+
+
+				To Install Material UI Syle:-
+
+Material UI Styles via Installation
+To install and save in your package.json dependencies, run:
+
+// with npm
+npm install @mui/styles
+
+// with yarn
+yarn add @mui/styles

@@ -1,0 +1,55 @@
+EXAMPLE FOR eslintrc.json FILE:-
+
+
+Code:- {
+  "extends": "next/core-web-vitals"
+}
+
+
+
+
+EXAMPLE OF .gitignore FILE:-
+
+
+Code:- # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+Code:- # dependencies
+Code:- /node_modules
+Code:- /.pnp
+Code:- .pnp.js
+
+Code:- # testing
+Code:- /coverage
+
+Code:- # next.js
+Code:- /.next/
+Code:- /out/
+
+Code:- # production
+Code:- /build
+
+Code:- # misc
+Code:- .DS_Store
+Code:- *.pem
+
+Code:- # debug
+Code:- npm-debug.log*
+Code:- yarn-debug.log*
+Code:- yarn-error.log*
+
+Code:- # local env files
+Code:- .env.local
+Code:- .env.development.local
+Code:- .env.test.local
+Code:- .env.production.local
+
+Code:- # vercel
+Code:- .vercel
+
+
+
+
+although gitignore is not written in its own file, it is excluded automatically
+
+In ReactJS, There we can use or make comments using # symbol.
+These Files Will Be Ignored When Uploading To Git
